@@ -104,7 +104,8 @@
     font-size: 1.5rem;
     cursor: pointer;
     margin-top: 0px;
-    padding: 14px 9px;
+    padding: 16px 11px;
+    border: none;
     float: right;
   }
   .details{

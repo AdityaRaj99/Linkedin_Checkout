@@ -42,7 +42,7 @@ function applyCoupon(){
             </div>
 
           <h4>Price: </h4>
-          <h4 style={{textDecoration:sucess?"line-through":"none"}} >399</h4>
+          <h4 style={{textDecoration:sucess?"line-through":"none"}} >Rs.399</h4>
           <h4 hidden={!sucess} style={{color:"green"}}>Free</h4>
           </div>
 

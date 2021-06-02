@@ -6,8 +6,7 @@
 }
 
 .login{
-    /* height: 48vh; */
-    width: 36%;
+  width: 36%;
   background-image: url(./images/formback.jpg);
   position: absolute;
   padding: 22px;
@@ -123,7 +122,6 @@
 
   }
   .login{
-
     width: 92%;
     margin-left: 4%;
   }
