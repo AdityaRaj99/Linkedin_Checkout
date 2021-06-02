@@ -11,3 +11,8 @@
 * Checkout button provides us with some features like coupon discount, mode of delivery and the price.
 
 * After successfully checking out all the details will be shown to the user that is done.
+
+![](Final_UI/image1.png)
+![](Final_UI/image2.png)
+![](Final_UI/image3.png)
+![](Final_UI/image4.png)
