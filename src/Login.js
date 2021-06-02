@@ -32,11 +32,11 @@ function submit(){
             <h2>User Login</h2>
             <div>
                 <p><b>User Name</b></p>
-                <input style={{width:"90%",height: "3vh"}} onChange={(e)=>setUserName(e.target.value)} value={username}  type="text" />
+                <input style={{width:"100%"}} onChange={(e)=>setUserName(e.target.value)} value={username}  type="text" />
             </div>
             <div>
                 <p><b> Password</b></p>
-                <input style={{width:"90%", height: "3vh"}}  onChange={(e)=>setPassword(e.target.value)} value={password} type="password" />
+                <input style={{width:"100%"}}  onChange={(e)=>setPassword(e.target.value)} value={password} type="password" />
             </div>
             <div>
             <p style={{color:"red"}}>{error}</p>

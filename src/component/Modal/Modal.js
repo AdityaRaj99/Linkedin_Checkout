@@ -21,7 +21,7 @@ function applyCoupon(){
 
   return (
     <div className="modal-wrapper" hidden={!show}>
-      <div style={{backgroundColor:"white",margin: "110px"}} hidden={checkOutState==="first"?false:true}>
+      <div className='modal-container' hidden={checkOutState==="first"?false:true}>
       <div className="modal-header">
         <p>Use Code GETFREE</p>
         <span onClick={()=>{setShowModal(false); setCheckoutSatate("first")}} className="close-modal-btn">x</span>
@@ -58,7 +58,7 @@ function applyCoupon(){
     </div>
 
     
-    <div style={{backgroundColor:"white",margin: "110px"}} hidden={checkOutState==="first"?true:false}>
+    <div className='modal-container2' hidden={checkOutState==="first"?true:false}>
     <div className="orderDetails">    
       <button onClick={()=>{setShowModal(false); setCheckoutSatate("first")}} className="close-payment-btn">x</button>
       <h2>Your Order Has Been Placed Successfully</h2>
