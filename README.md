@@ -1,3 +1,5 @@
+[Deployed-Link](https://linkedin-app.netlify.app/)
+
 * First created basic project files using create command and also installed React-router-dom.
 
 * Then created all the datas to be used inside the Home page.
